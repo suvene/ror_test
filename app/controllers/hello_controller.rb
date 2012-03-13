@@ -8,4 +8,5 @@ class HelloController < ApplicationController
   def view
     @msg = 'こんにちは！こんにちは！世界 from view '
   end
+
 end
