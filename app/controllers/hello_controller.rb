@@ -13,4 +13,7 @@ class HelloController < ApplicationController
     @books = Book.all
   end
 
+  def app_var_author
+    render :text => Railbook::Application::config.author
+  end
 end
